@@ -1,0 +1,4 @@
+jwt:
+  secret-key: ${SECRET_KEY}
+  access-token-validation-second: ${access_token_validation}
+  refresh-token-validation-second: ${refresh_token_validation}
