@@ -1,0 +1,5 @@
+jwt:
+  access-secret-key: ${ACCESS_SECRET_KEY}
+  refresh-secret-key: ${REFRESH_SECRET_KEY}
+  access-expire-second: ${ACCESS_EXPIRE_SECOND}
+  refresh-expire-second: ${REFRESH_EXPIRE_SECOND}
