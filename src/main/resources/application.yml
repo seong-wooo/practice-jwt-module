@@ -1,4 +1,5 @@
 jwt:
-  secret-key: ${SECRET_KEY}
-  access-token-validation-second: ${access_token_validation}
-  refresh-token-validation-second: ${refresh_token_validation}
+  access-secret-key: ${ACCESS_SECRET_KEY}
+  refresh-secret-key: ${REFRESH_SECRET_KEY}
+  access-expire-second: ${ACCESS_EXPIRE_SECOND}
+  refresh-expire-second: ${REFRESH_EXPIRE_SECOND}
